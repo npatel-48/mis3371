@@ -1,0 +1,140 @@
+  /*
+Program name: style-hw3.css
+Author: Namita Patel
+Date created: 3/3/25
+Date last edited: 3/13/25
+Version: 1.0
+Description: Namita Patel hw3 style sheet
+*/
+
+/* https://www.w3schools.com/cssref/css_default_values.php */
+
+.header {
+  background: #1abc9c90;
+  color: rgb(25, 5, 34);
+}
+
+.footer {
+  background: #1abc9c90;
+  color: rgb(84, 15, 15);
+}
+body {
+  background-color: rgba(49, 247, 197, 0.156);
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Georgia", sans-serif;
+  color: #0056b3;
+  margin-left: 20px;
+}
+
+h2 {
+  color: #943da5;
+  text-align: left;
+  font-family: "Verdana", sans-serif;
+  padding: 1px;
+}
+
+p {
+  text-align: center;
+  color: rgb(102, 102, 236);
+  margin-left: 1px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 0px;
+  text-align: center;
+}
+
+td {
+    text-align: center;
+    padding: 5px; 
+}
+
+.atable {
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+table.form, tr.form, td.form 
+{
+  text-align: center;
+  width: 80%;
+  opacity: 0.9;
+  font-family: Georgia, Verdana, sans-serif;
+  background-color: #5ceb8746;
+  margin: auto;
+}
+
+table.output, tr.output, td.output {
+  width: 70%;
+  text-align: center;
+  opacity: 0.9;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:green;
+  color:rgb(0, 0, 0);
+}
+
+button
+{
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+}
+
+label {
+  text-align:center;
+  font-family: "Verdana", sans-serif;
+  color: #0a6c27;
+}
+input, button {
+  text-align: center;
+  font-family: "Georgia", sans-serif;
+}
+
+input[required] {
+  border-color: #ff000077;
+}
+
+#urgent-message {
+  color: rgb(227, 141, 60);
+  font-weight: bold;
+  text-align: left;
+  font-size: 18px;
+}
+
+.warning-text {
+  font-size: 14px;
+  color: #ffbb00;
+  font-style: italic;
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #6c757d;
+}
+
+.textsize1 {
+  width: 10px;
+}
+
+td.outputdata {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:white;
+  padding: 5px;
+  border-spacing: 10px;
+  color:black;
+}
